@@ -182,7 +182,7 @@ ul {
 .parallax-experience {
   background-color: var(--c-dark);
   background-blend-mode: multiply;
-  background-image: url("../img/workDesk.jpg");
+  background-image: url("../img/workdesk.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
