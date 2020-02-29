@@ -1,5 +1,151 @@
-<doctype html>
-<html>
-	<body> <p>"Hello World"</p>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/mystyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+  <title>Phuong Marangoni Portfolio</title>
+</head>
+
+<body>
+  <!-- Introduction -->
+  <div class="parallax parallax-intro">
+    <header>
+      <nav class="my-nav sticky">
+        <span class="nav-toggle" id="js-nav-toggle">
+          <i class="fa fa-bars"></i>
+        </span>
+
+        <ul class="my-nav__list" id="js-nav-menu">
+          <li class="my-nav__item"><a href="#home" class="my-nav__link">Home</a></li>
+          <li class="my-nav__item"><a href="#experience" class="my-nav__link">Experience</a></li>
+          <li class="my-nav__item"><a href="#projects" class="my-nav__link">Projects</a></li>
+          <li class="my-nav__item"><a href="#contact" class="my-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="intro">
+      <section class="section__intro" id="home">
+        <img src="./img/Phuong.png" alt="Picture of Phuong" class="section__img">
+        <h2 class="section__title section__title--intro"> Hi! I'm Phuong Marangoni.</h2>
+      </section>
+    </div>
+  </div>
+
+  <!-- Work Experience -->
+  <section class="quote" id="experience">
+    <p class="section__title section__title--quote"> "Try not to become a man of success, but rather try to become a man of value." - Albert Einstein </p>
+  </section>
+
+  <div class="parallax parallax-experience">
+    <section class="experience">
+      <h1 class="section__title"> Experience </h1>
+      <p class="section__subtitle"> <span class="strong">Helping others. </span> That is the objective in all that I do. I have years of experience providing engineering and management support to my clients with the main goal of ensuring I've done my
+        best to help them achieve their missions. I've had great opportunities taking on various roles throughout my career that has helped shape me into the professional I am today. </p>
+
+      <div class="positions">
+        <div class="role">
+          <h3 class="role__title"> Engineer </h3>
+          <p class="role__subtitle"> As an Engineer, I helped my clients develop and enhance their modeling and simulation capabilities in C++ and FORTRAN. I also helped build various web-based management tools for my clients utlizing HTML, CSS, JavaScript, and mulitple Microsoft services. For a more detailed resume, please don't hesitate to <a href="#contact" class="links"> contact </a> me!
+            <br><br>
+          In my free time, I enjoy learning new things. This past year, I started learning Python. I recently introduced myself to CSS Art (which has been super fun) and various frameworks and libraries I've never used before such as Bootstrap, jQuery, and Chart.js for a few personal projects. Please checkout my personal <a href="#projects" class="links">projects</a> below!
+        </p>
+        </div>
+
+        <div class="role">
+          <h3 class="role__title"> Program/Project Manager </h3>
+          <p class="role__subtitle"> As a Program/Project Manager, I helped my clients develop, produce, and sustain medium (~$10M USD) to large (~$1.2B USD) programs. I worked with my cross-functional teams to develop project requirements, budget plans, and project schedules. I helped lead weekly reviews of over 50 active and follow-on contracts to address project issues and risk. I briefed program schedule, status, financial health and updates to senior leadership on a weekly, bi-weekly, or monthly basis. Since 2016, I helped deliver major/minor  system baseline upgrades, a major full-motion cockpit simulator upgrade, and quick reaction capabilities for my clients. I also helped mentor and train new or junior team members.
+          </p>
+        </div>
+      </div>
+
+      <div class="experience__awards">
+        <h2> Awards </h2>
+        <ul class="experience__awards__list">
+          <li class="experience__awards__list__item">Nominated for SRC Blue Arrow Award 2019</li>
+          <li class="experience__awards__list__item">Nominated for SRC Innovators’ Award 2018 </li>
+          <li class="experience__awards__list__item">Excellence in Acquisition Leadership Team Award 2018</li>
+          <li class="experience__awards__list__item">SRC Blue Arrow Award 2018</li>
+          <li class="experience__awards__list__item">SRC Cause For Applause 2018</li>
+          <li class="experience__awards__list__item">Continuous Process Improvement Team Award 2017</li>
+          <li class="experience__awards__list__item">SRC All Star Award 2017</li>
+          <li class="experience__awards__list__item">Government Contractor of the Quarter FY 2017 2Qtr</li>
+          <li class="experience__awards__list__item">SERCO On the Spot Award 2016</li>
+          <li class="experience__awards__list__item">Propulsion Systems All Star x 3 (2014, 2015, 2016)</li>
+          <li class="experience__awards__list__item">SERCO Excellence Award 2014</li>
+        </ul>
+      </div>
+      <div class="experience__edu">
+        <h2> Education </h2>
+        <ul>
+          <li class="experience__edu__degree"> Master of Engineering Management </li>
+          <li class="experience__edu__school"> Pennsylvania State University </li>
+        </ul>
+        <ul>
+          <li class="experience__edu__degree"> B.S. Computer Engineering </li>
+          <li class="experience__edu__school"> Wright State University </li>
+        </ul>
+      </div>
+
+      <br> <br>
+
+      <p> Outside of work, I love spending time with my family, doing <a href="https://www.crossfitheights.com/" class="links"> CrossFit </a>, or playing video games. </p>
+    </section>
+  </div>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h1 class="section__title section__title--projects"> Projects </h1>
+
+    <div class="p-row">
+      <div class="p-col">
+        <a href="https://phuong-marangoni.github.io/adventureswithmychucks" class="projects__img"><img src="./img/converseProject.jpg" alt="Chucks Project"></a>
+      </div>
+      <div class="p-col">
+        <a href="#" class="projects__img"><img src="./img/waterSysProject.jpg" alt="Water Sensors Project"></a>
+      </div>
+      <div class="p-col">
+        <a href="#" class="projects__img"><img src="./img/CSSArt.png" alt="Code Art Project"></a>
+      </div>
+  </section>
+
+  <!-- Contact/Footer -->
+  <footer class="footer" id="contact">
+    <div class="c-row">
+      <div class="c-col c-col-copyright">
+        <p class="c-col__contact"> ©Phuong Marangoni 2020 </p>
+      </div>
+
+      <div class="c-col">
+        <ul class="footer__sms-list">
+          <li class="footer__sms-list__item">
+            <a href="https://github.com/phuong-marangoni" class="links">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="c-col">
+        <h3 class="footer__title"> Contact </h3>
+        <ul class="footer__contact-list">
+          <li class="footer__items__link"> Phuong Marangoni </li>
+          <li class="footer__items__link"><a href="mailto:ngopt.0@gmail.com" class="links">ngopt.0@gmail.com</li>
+      </div>
+    </div>
+    <div class="footer__items__link"><a href="#js-nav-toggle" class="footer__back-to-top">Back to Top</div>
+    </ul>
+  </footer>
+
+  <!-- JS -->
+  <script src="./js/custom.js"></script>
+</body>
+
 </html>
