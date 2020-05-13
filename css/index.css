@@ -220,6 +220,12 @@ ul {
   font-size: 0.8rem;
 }
 
+.unsplashCredit {
+  opacity: 0.8;
+  font-size: 0.4rem;
+  color: #727572;
+}
+
 /* Projects Section */
 .projects {
   text-align: center;
